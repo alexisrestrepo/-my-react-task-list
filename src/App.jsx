@@ -1,7 +1,7 @@
 
 import Titulo from './compontes/Titulo'
 import ListaDeTareas from './compontes/Lista'
-
+import validacion from './validacion/validacion'
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
   
     <div className='app'>
       <ListaDeTareas/>
+      
     </div>
  
 ) 
